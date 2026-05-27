@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #1e1e2f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* =====================
+   CONTROLS
+===================== */
+.controls {
+    margin-bottom: 15px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* =====================
+   RESULT TEXT
+===================== */
+#final-value {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+/* =====================
+   WHEEL WRAPPER
+===================== */
+.wheel-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+/* Canvas fills container */
+#wheel {
+    width: 100%;
+    height: 100%;
+}
+
+
+.pointer {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%);
+
+    width: 0;
+    height: 0;
+
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 25px solid #ffffff;
+
+    z-index: 10;
+}
+
+/* =====================
+   GAME LIST
+===================== */
+ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
