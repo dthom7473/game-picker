@@ -16,9 +16,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* =====================
-   CONTROLS
-===================== */
+/* CONTROLS*/
 .controls {
     margin-bottom: 15px;
 }
@@ -45,17 +43,13 @@ button:hover {
     background: #45a049;
 }
 
-/* =====================
-   RESULT TEXT
-===================== */
+/* RESULT TEXT */
 #final-value {
     margin: 15px 0;
     font-size: 18px;
 }
 
-/* =====================
-   WHEEL WRAPPER
-===================== */
+/* WHEEL WRAPPER */
 .wheel-container {
     position: relative;
     width: 400px;
@@ -86,9 +80,7 @@ button:hover {
     z-index: 10;
 }
 
-/* =====================
-   GAME LIST
-===================== */
+/* GAME LIST*/
 ul {
     margin-top: 20px;
     list-style: none;
